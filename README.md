@@ -5,8 +5,9 @@ Recently, synthetic images have evolved incredibly realistic with the developmen
 
 ## Environment Setup
 Since the DWT transformation is required in Forensic-MoE, additional data processing tools are necessary.
-
-```pip install pytorch_wavelets PyWavelets```
+```down-python
+pip install pytorch_wavelets PyWavelets
+```
 
 ## Get Start
 
@@ -18,11 +19,15 @@ Please download both of them and place in the `./checkpoints` folder.
 ### Inference
 You can run the `inference.py` to simply verify the authenticity of the specified image:
 
-```python inference.py --model-path ./checkpoints/detector.pth --image_path ./examples/midjourney.png```
+```down-python
+python inference.py --model-path ./checkpoints/detector.pth --image_path ./examples/midjourney.png
+```
 
 after that, the expect output is:
 
-```This image is FAKE with fakeness score 0.6492539644241333```
+```down-python
+This image is FAKE with fakeness score 0.6492539644241333
+```
 
 The default threshold is 0.5.
 
