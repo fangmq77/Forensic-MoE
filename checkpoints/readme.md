@@ -1,1 +1,1 @@
-place the CLIP.pt and detector.pth here.
+Place the CLIP.pt and detector.pth here.
