@@ -12,7 +12,7 @@ pip install pytorch_wavelets PyWavelets
 ## Get Start
 
 ### Download the Pretrained Model
-The pretrained checkpoints file are available in xxx. Among them, `CLIP.pt` represents the official clip pretrained checkpoint, and `detector.pth` represents the weights of our Forensic-MoE.
+The pretrained checkpoints file are available in [google drive](https://drive.google.com/drive/folders/1DAgT2XgUIERMTPI6YejC0bbP8ZIgk0lr?usp=sharing). Among them, `CLIP.pt` represents the official clip pretrained checkpoint, and `detector.pth` represents the weights of our Forensic-MoE.
 
 Please download both of them and place in the `./checkpoints` folder.
 
