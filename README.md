@@ -58,3 +58,16 @@ The provided `detector.pth` is a re-trained version that outperforms the result 
 | Wurstchen 2 | 94.36 | 93.15 |-1.21 |
 |**Mean**|**92.58**|**93.64**| **+1.06**|
 
+## Citation
+If you find Forensic-MoE useful for you, we would greatly appreciate it if you could cite this paper:
+```down-python
+@InProceedings{Fang_2025_ICCV,
+    author    = {Fang, Mingqi and Li, Ziguang and Yu, Lingyun and Yang, Quanwei and Xie, Hongtao and Zhang, Yongdong},
+    title     = {Forensic-MoE: Exploring Comprehensive Synthetic Image Detection Traces with Mixture of Experts},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {17772-17782}
+}
+```
+
