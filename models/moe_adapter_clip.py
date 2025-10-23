@@ -187,8 +187,6 @@ class MoE_Adapter_CLIP(nn.Module):
     def forward(self, x, adapter_idx=None):
 
         adapter_features = []
-        optimized_features = []
-        anchor_features = []
     
         for i in range(len(self.forgery_adapters)):
             adapter_features.append(self.forward_single_adapter(x, idx=i)[0])
