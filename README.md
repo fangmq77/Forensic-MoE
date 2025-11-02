@@ -50,7 +50,7 @@ The provided `detector.pth` is a re-trained version that outperforms the result 
 | ADM | 87.04 | 83.24 |-3.8 |
 | GLIDE | 97.97 | 97.22 |-0.75 |
 | Wukong | 99.21 | 99.37 |+0.16 |
-| VQDM | 96.89 | 99.60 |-0.29 |
+| VQDM | 96.89 | 96.60 |-0.29 |
 | Kandinsky 2 | 88.14 | 90.19 |+2.05 |
 | Kandinsky 3 | 79.04 | 85.91 |+6.87 |
 | PixArt-alpha | 79.85 | 85.17 |+5.32 |
