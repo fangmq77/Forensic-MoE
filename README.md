@@ -20,7 +20,7 @@ Please download both of them and place in the `./checkpoints` folder.
 You can run the `inference.py` to simply verify the authenticity of the specified image:
 
 ```down-python
-python inference.py --model-path ./checkpoints/detector.pth --image_path ./examples/midjourney.png
+python inference.py --model-path ./checkpoints/detector.pth --image-path ./examples/midjourney.png
 ```
 
 after that, the expect output is:
