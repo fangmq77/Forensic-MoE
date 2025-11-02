@@ -20,13 +20,13 @@ Please download both of them and place in the `./checkpoints` folder.
 You can run the `inference.py` to simply verify the authenticity of the specified image:
 
 ```down-python
-python inference.py --model-path ./checkpoints/detector.pth --image-path ./examples/midjourney.png
+python inference.py --model-path ./checkpoints/detector.pth --image-path ./examples/fake.png
 ```
 
 after that, the expect output is:
 
 ```down-python
-This image is FAKE with fakeness score 0.6492539644241333
+This image is FAKE with fakeness score 0.9961028099060059
 ```
 
 The default threshold is 0.5.
