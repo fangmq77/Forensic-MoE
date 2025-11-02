@@ -26,7 +26,7 @@ python inference.py --model-path ./checkpoints/detector.pth --image-path ./examp
 after that, the expect output is:
 
 ```down-python
-This image is FAKE with fakeness score 0.9961028099060059
+This image is FAKE with fakeness score 0.9996659755706787
 ```
 
 The default threshold is 0.5.
